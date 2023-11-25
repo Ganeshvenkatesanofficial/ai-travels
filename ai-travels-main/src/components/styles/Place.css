@@ -1,0 +1,101 @@
+.all-places {
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    gap: 80px;
+    padding-bottom: 120px;
+    justify-content: center;
+    height: 100vh;
+}
+
+.location {
+    height: 250px;
+    width: 300px;
+}
+
+.list-place {
+    text-align: center;
+    width: calc(100% / 3);
+    min-width: 400px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #515e8e;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px -5px black;
+}
+
+ul {
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Baloo Bhaina 2', cursive;
+    font-size: 25px;
+}
+
+h3 {
+    font-size: 15px;
+    padding: 0 25px;
+}
+
+h2, h3 {
+    margin: 5px 0;
+    letter-spacing: 2px;
+}
+
+.days {
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.number-of-days {
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 5px;
+    width: 80px;
+    font-size: 20px;
+}
+
+.select-button {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.place-error {
+    font-size: 25px;
+    text-align: center;
+    align-self: center;
+    margin: 0 auto;
+    letter-spacing: 1.5px;
+}
+
+@media (max-width: 1020px) {
+    .list-place {
+        width: calc(100% - 20px);
+        padding: 20px 0;
+        min-width: unset;
+    }
+
+    .location {
+        width: 200px;
+        height: 150px;
+    }
+
+    .all-places {
+        padding-left: 0;
+    }
+
+    .select-button {
+        font-size: 16px;
+    }
+}

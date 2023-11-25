@@ -1,0 +1,51 @@
+.sign-in {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    align-self: center;
+    justify-content: center;
+    gap: 20px;
+    letter-spacing: 2px;
+    height: 100%;
+}
+
+.sign-in h2 {
+    text-align: center;
+}
+
+.not-yet-signed {
+    display: flex;
+    gap: 10px;
+    letter-spacing: 2px;
+    align-self: center;
+}
+
+.sign-in-form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.sign-in-button {
+    width: 300px;
+    align-self: center;
+    padding: 15px;
+    border-radius: 50px;
+}
+
+@media (max-width: 720px) {
+    .sign-in {
+        width: calc(100% - 80px);
+        padding: 100px 0 160px 0;
+        height: fit-content;
+    }
+
+    .sign-in-button {
+        width: 200px;
+    }
+
+    .not-yet-signed {
+        flex-direction: column;
+        text-align: center;
+    }
+}

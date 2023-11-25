@@ -1,0 +1,18 @@
+.instructions {
+    font-size: 23px;
+    line-height: 50px;
+    letter-spacing: 1.5px;
+    padding-bottom: 160px;
+    margin: 0 auto;
+}
+
+.instruction-title {
+    align-self: center;
+}
+
+.enjoy {
+    align-self: center;
+    font-size: 30px;
+    font-family: 'Yuji Hentaigana Akebono', cursive;
+    text-align: center;
+}
